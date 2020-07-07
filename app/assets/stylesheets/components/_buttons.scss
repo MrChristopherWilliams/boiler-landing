@@ -1,0 +1,43 @@
+.btn-sign-up {
+  background-color: #3DCC96;
+  color: #FCF7F8 !important;
+  padding: 8px 24px;
+  border-radius: 50px;
+  opacity: 1;
+  width: 160px;
+  transition: opacity 0.1s ease;
+  text-align: center;
+  input {
+    color: #FCF7F8;
+  }
+  &:hover {
+  background-color: white;
+  border: 1px solid #3DCC96;
+  color: #3DCC96 !important;
+  input {
+    color: #3DCC96 !important;
+    }
+  }
+}
+
+.btn-contact {
+  background-color: #3DCC96;
+  color: #FCF7F8 !important;
+  padding: 8px 24px;
+  border-radius: 50px;
+  opacity: 1;
+  width: 100%;
+  transition: opacity 0.1s ease;
+  text-align: center;
+  input {
+    color: #FCF7F8;
+  }
+  &:hover {
+  background-color: white;
+  border: 1px solid #3DCC96;
+  color: #3DCC96 !important;
+  input {
+    color: #3DCC96 !important;
+    }
+  }
+}

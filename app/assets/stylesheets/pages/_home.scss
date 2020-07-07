@@ -1,1 +1,194 @@
-// Specific CSS for your home-page
+.landing-card {
+  height: 500px;
+  text-align: center;
+  overflow: hidden;
+  background: $light-blue;
+  padding: 16px;
+  min-width: 28vw;
+}
+
+.landing-card-mobile {
+  height: 55vh;
+  text-align: center;
+  overflow: hidden;
+  background: $light-blue;
+  padding: 16px;
+  min-width: 28vw;
+}
+
+#landing-hero-h1 {
+  color: white;
+  font-size: 46px;
+  margin-left: 5vw;
+  margin-top: 70px;
+  margin-right: 5vw;
+  line-height: 1em;
+}
+
+#landing-hero-h1-small {
+  color: white;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  line-height: 1em;
+}
+
+.homepage-image {
+  position: absolute;
+  right: 180px;
+  top: 180px;
+  height: 340px;
+  width: auto;
+}
+
+#about {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  min-height: 75vh;
+  h1 {
+  text-align: center;
+  }
+}
+
+.how-text-large {
+  font-size: 24px;
+  text-align: center;
+  width: 60vw;
+}
+
+.how-text-small {
+  font-size: 24px;
+  text-align: center;
+  width: 90vw;
+}
+
+.card-invisble {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 48px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.home-a-tag {
+  margin-top: 10vh;
+}
+
+.newsletter {
+  padding: 32px;
+  width: 100%;
+}
+
+.section-sign-up {
+  width: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  min-height: 40vh;
+}
+
+input {
+  border-bottom: 1px solid !important;
+  border-color: black !important;
+}
+
+.contact-container {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  min-width: 50vw;
+}
+
+.contact {
+  margin: 24px;
+}
+
+.info {
+  width: 100%;
+  clear: both;
+  border: 0;
+}
+
+.info input {
+  width: 100%;
+  clear: both;
+  border: 0;
+}
+
+.info textarea {
+  height: 100px;
+  width: 100%;
+  clear: both;
+  border: 0;
+}
+
+input {
+  border-bottom: 1px solid !important;
+  border-color: black !important;
+}
+
+
+#message {
+  border-bottom: 1px solid !important;
+  border-color: black !important;
+}
+
+
+#team {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  min-height: 75vh;
+}
+
+.card {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 48px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  font-size: 24px;
+  min-width: 25vw;
+}
+
+.c-header {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.avatar-large {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.profile-links {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+.profile-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 56px;
+  padding: 0px 10px;
+}
+
+.profile-links a:hover {
+  opacity: 1;
+}
+
+.profile-text {
+  font-size: 16px;
+}
